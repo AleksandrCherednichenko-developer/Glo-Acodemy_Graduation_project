@@ -9,7 +9,7 @@ module.exports = {
    mode: 'development',
    devServer: {
       open: true,
-      port: 8080,
+      port: 8888,
       hot: true,
       writeToDisk: true,
    },
@@ -26,5 +26,5 @@ module.exports = {
             exclude: /node_modules/,
          }
       ]
-   }
+   },
 };
