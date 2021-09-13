@@ -1,4 +1,4 @@
-const toggleMenu = () => {
+const popupMenu = () => {
 
    const callbackBtn = document.querySelectorAll('.callback-btn');
    const modalCallback = document.querySelector('.modal-callback');
@@ -36,4 +36,4 @@ const toggleMenu = () => {
 
 };
 
-export default toggleMenu;
+export default popupMenu;
