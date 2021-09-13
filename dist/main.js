@@ -38,7 +38,18 @@ eval("\nmodule.exports = function () {\n\treturn /[\\u001b\\u009b][[()#;?]*(?:[0
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_transition__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/transition */ \"./src/modules/transition.js\");\n // плавные переход\n\n\n(0,_modules_transition__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack://Glo-Acodemy_Graduation_project/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_transition__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/transition */ \"./src/modules/transition.js\");\n/* harmony import */ var _modules_toggleMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/toggleMenu */ \"./src/modules/toggleMenu.js\");\n // плавные переход\n\n\n(0,_modules_transition__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(); // Toggle menu\n\n\n(0,_modules_toggleMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://Glo-Acodemy_Graduation_project/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/toggleMenu.js":
+/*!***********************************!*\
+  !*** ./src/modules/toggleMenu.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nvar toggleMenu = function toggleMenu() {\n  var callbackBtn = document.querySelectorAll('.callback-btn');\n  var modalCallback = document.querySelector('.modal-callback');\n  var modalOverlay = document.querySelector('.modal-overlay');\n  var modalClose = document.querySelector('.modal-close img');\n\n  var openToggle = function openToggle() {\n    modalCallback.style.display = 'block';\n    modalOverlay.style.display = 'block'; // let start = Date.now();\n    // let timer = setInterval(() => {\n    //    let timePassed = Date.now() - start;\n    //    modalCallback.style.top = timePassed / 2 + 'px';\n    //    if (timePassed > 500) clearInterval(timer);\n    // }, 1.5);\n  };\n\n  var closeToggle = function closeToggle() {\n    modalCallback.style.display = 'none';\n    modalOverlay.style.display = 'none';\n  };\n\n  callbackBtn.forEach(function (elem) {\n    elem.addEventListener('click', function () {\n      openToggle();\n    });\n  });\n  document.addEventListener('click', function (event) {\n    if (event.target === modalClose) {\n      closeToggle();\n    } else if (event.target === modalOverlay) {\n      closeToggle();\n    }\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toggleMenu);\n\n//# sourceURL=webpack://Glo-Acodemy_Graduation_project/./src/modules/toggleMenu.js?");
 
 /***/ }),
 
@@ -451,7 +462,7 @@ eval("var map = {\n\t\"./log\": \"./node_modules/webpack/hot/log.js\"\n};\n\n\nf
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("839c723090d2b89c60ef")
+/******/ 		__webpack_require__.h = () => ("d9bab91c3e17e61ed802")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

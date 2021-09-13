@@ -3,3 +3,7 @@
 // плавные переход
 import transition from './modules/transition';
 transition();
+
+// Toggle menu
+import toggleMenu from './modules/toggleMenu';
+toggleMenu();
