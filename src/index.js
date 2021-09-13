@@ -7,3 +7,7 @@ transition();
 // Toggle menu
 import toggleMenu from './modules/toggleMenu';
 toggleMenu();
+
+// Аккордеон
+import accordionMenu from './modules/accordion';
+accordionMenu();

@@ -38,7 +38,18 @@ eval("\nmodule.exports = function () {\n\treturn /[\\u001b\\u009b][[()#;?]*(?:[0
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_transition__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/transition */ \"./src/modules/transition.js\");\n/* harmony import */ var _modules_toggleMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/toggleMenu */ \"./src/modules/toggleMenu.js\");\n // плавные переход\n\n\n(0,_modules_transition__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(); // Toggle menu\n\n\n(0,_modules_toggleMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://Glo-Acodemy_Graduation_project/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_transition__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/transition */ \"./src/modules/transition.js\");\n/* harmony import */ var _modules_toggleMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/toggleMenu */ \"./src/modules/toggleMenu.js\");\n/* harmony import */ var _modules_accordion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/accordion */ \"./src/modules/accordion.js\");\n // плавные переход\n\n\n(0,_modules_transition__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(); // Toggle menu\n\n\n(0,_modules_toggleMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(); // Аккордеон\n\n\n(0,_modules_accordion__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n\n//# sourceURL=webpack://Glo-Acodemy_Graduation_project/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/accordion.js":
+/*!**********************************!*\
+  !*** ./src/modules/accordion.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nvar accordionMenu = function accordionMenu() {\n  var accordeon = document.querySelector('.accordeon');\n  var accordeonElem = accordeon.querySelectorAll('.element');\n  var accordeonTitle = accordeon.querySelectorAll('.element .title');\n  var accordeonContent = accordeon.querySelectorAll('.element-content');\n  accordeonTitle.forEach(function (elem) {\n    elem.addEventListener('click', function () {\n      var parent = elem.parentNode;\n      var content = parent.querySelector('.element-content');\n\n      if (parent.classList.contains('active')) {\n        parent.classList.remove('active');\n        content.style.display = 'none';\n      } else {\n        accordeonElem.forEach(function (child) {\n          child.classList.remove('active');\n          accordeonContent.forEach(function (elem) {\n            elem.style.display = 'none';\n          });\n        });\n        parent.classList.add('active');\n        content.style.display = 'block';\n      }\n    });\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (accordionMenu);\n\n//# sourceURL=webpack://Glo-Acodemy_Graduation_project/./src/modules/accordion.js?");
 
 /***/ }),
 
@@ -462,7 +473,7 @@ eval("var map = {\n\t\"./log\": \"./node_modules/webpack/hot/log.js\"\n};\n\n\nf
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("d9bab91c3e17e61ed802")
+/******/ 		__webpack_require__.h = () => ("b8023ea79d4cff813346")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

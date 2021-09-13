@@ -24,7 +24,6 @@ const toggleMenu = () => {
       elem.addEventListener('click', () => {
          openToggle();
       });
-      
    });
 
    document.addEventListener('click', (event) => {
