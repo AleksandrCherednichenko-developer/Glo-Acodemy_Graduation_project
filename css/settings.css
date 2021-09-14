@@ -364,9 +364,9 @@ img.right{
 .fancybox-nav span{
     visibility: visible;
     -webkit-transition: all 200ms ease-out;
-	-moz-transition: all 200ms ease-out;
-	-o-transition: all 200ms ease-out;
-	transition: all 200ms ease-out;
+   -moz-transition: all 200ms ease-out;
+   -o-transition: all 200ms ease-out;
+   transition: all 200ms ease-out;
 }
 .fancybox-next span {
     background: #fff;
@@ -745,86 +745,86 @@ img.right{
 }
 .delay-100{
     -webkit-animation-delay: 100ms;
-	-moz-animation-delay: 100ms;
-	-o-animation-delay: 100ms;
+   -moz-animation-delay: 100ms;
+   -o-animation-delay: 100ms;
     animation-delay: 100ms;
 }
 .delay-200{
     -webkit-animation-delay: 200ms;
-	-moz-animation-delay: 200ms;
-	-o-animation-delay: 200ms;
+   -moz-animation-delay: 200ms;
+   -o-animation-delay: 200ms;
     animation-delay: 200ms;
 }
 .delay-300{
     -webkit-animation-delay: 300ms;
-	-moz-animation-delay: 300ms;
-	-o-animation-delay: 300ms;
+   -moz-animation-delay: 300ms;
+   -o-animation-delay: 300ms;
     animation-delay: 300ms;
 }
 .delay-400{
     -webkit-animation-delay: 400ms;
-	-moz-animation-delay: 400ms;
-	-o-animation-delay: 400ms;
+   -moz-animation-delay: 400ms;
+   -o-animation-delay: 400ms;
     animation-delay: 400ms;
 }
 .delay-500{
     -webkit-animation-delay: 500ms;
-	-moz-animation-delay: 500ms;
-	-o-animation-delay: 500ms;
+   -moz-animation-delay: 500ms;
+   -o-animation-delay: 500ms;
     animation-delay: 500ms;
 }
 .delay-600{
     -webkit-animation-delay: 600ms;
-	-moz-animation-delay: 600ms;
-	-o-animation-delay: 600ms;
+   -moz-animation-delay: 600ms;
+   -o-animation-delay: 600ms;
     animation-delay: 600ms;
 }
 .delay-700{
     -webkit-animation-delay: 700ms;
-	-moz-animation-delay: 700ms;
-	-o-animation-delay: 700ms;
+   -moz-animation-delay: 700ms;
+   -o-animation-delay: 700ms;
     animation-delay: 700ms;
 }
 .delay-800{
     -webkit-animation-delay: 800ms;
-	-moz-animation-delay: 800ms;
-	-o-animation-delay: 800ms;
+   -moz-animation-delay: 800ms;
+   -o-animation-delay: 800ms;
     animation-delay: 800ms;
 }
 .delay-900{
     -webkit-animation-delay: 900ms;
-	-moz-animation-delay: 900ms;
-	-o-animation-delay: 900ms;
+   -moz-animation-delay: 900ms;
+   -o-animation-delay: 900ms;
     animation-delay: 900ms;
 }
 .delay-1000{
     -webkit-animation-delay: 1000ms;
-	-moz-animation-delay: 1000ms;
-	-o-animation-delay: 1000ms;
+   -moz-animation-delay: 1000ms;
+   -o-animation-delay: 1000ms;
     animation-delay: 1000ms;
 }
 .delay-1100{
     -webkit-animation-delay: 1100ms;
-	-moz-animation-delay: 1100ms;
-	-o-animation-delay: 1100ms;
+   -moz-animation-delay: 1100ms;
+   -o-animation-delay: 1100ms;
     animation-delay: 1100ms;
 }
 .delay-1200{
     -webkit-animation-delay: 1200ms;
-	-moz-animation-delay: 1200ms;
-	-o-animation-delay: 1200ms;
+   -moz-animation-delay: 1200ms;
+   -o-animation-delay: 1200ms;
     animation-delay: 1200ms;
 }
 .delay-1300{
     -webkit-animation-delay: 1300ms;
-	-moz-animation-delay: 1300ms;
-	-o-animation-delay: 1300ms;
+   -moz-animation-delay: 1300ms;
+   -o-animation-delay: 1300ms;
     animation-delay: 1300ms;
 }
 .delay-1400{
     -webkit-animation-delay: 1400ms;
-	-moz-animation-delay: 1400ms;
-	-o-animation-delay: 1400ms;
+   -moz-animation-delay: 1400ms;
+   -o-animation-delay: 1400ms;
     animation-delay: 1400ms;
 }
 
