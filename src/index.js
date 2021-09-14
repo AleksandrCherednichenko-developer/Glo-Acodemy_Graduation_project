@@ -4,6 +4,14 @@
 import transition from './modules/transition';
 transition();
 
-// Toggle menu
-import toggleMenu from './modules/toggleMenu';
-toggleMenu();
+// Попап меню
+import popupMenu from './modules/popupMenu';
+popupMenu();
+
+// Аккордеон
+import accordionMenu from './modules/accordion';
+accordionMenu();
+
+// Скролл к началу
+import scrollUp from './modules/scrollUp';
+scrollUp();
