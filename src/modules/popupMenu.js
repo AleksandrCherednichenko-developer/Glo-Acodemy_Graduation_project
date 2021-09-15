@@ -5,6 +5,7 @@ const popupMenu = () => {
    const modalOverlay = document.querySelector('.modal-overlay');
    const modalClose = document.querySelector('.modal-close img');
    const questSectionBtn = document.querySelector('.quest-section .button');
+   const services = document.querySelectorAll('.slide div.element');
 
    const openPopup = () => {
       modalCallback.style.display = 'block';
@@ -22,6 +23,12 @@ const popupMenu = () => {
    };
 
    callbackBtn.forEach((elem) => {
+      elem.addEventListener('click', () => {
+         openPopup();
+      });
+   });
+
+   services.forEach((elem) => {
       elem.addEventListener('click', () => {
          openPopup();
       });

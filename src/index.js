@@ -15,3 +15,7 @@ accordionMenu();
 // Скролл к началу
 import scrollUp from './modules/scrollUp';
 scrollUp();
+
+// Слайдер карусель
+import sliderCarousel from './modules/sliderCarousel';
+sliderCarousel();
