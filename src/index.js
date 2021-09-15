@@ -19,3 +19,7 @@ scrollUp();
 // Слайдер карусель
 import sliderCarousel from './modules/sliderCarousel';
 sliderCarousel();
+
+// Слайдер основной
+import sliderTop from './modules/sliderTop';
+sliderTop();
