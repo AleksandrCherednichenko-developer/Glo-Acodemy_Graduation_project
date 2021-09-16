@@ -79,11 +79,9 @@ const sliderCarousel = () => {
     if (!isSwipe && !isScroll) {
       let posY = Math.abs(posY2);
       if (posY > 7 || posX2 === 0) {
-        console.log('is scroll');
         isScroll = true;
         allowSwipe = false;
       } else if (posY < 7) {
-        console.log('is swipe');
         isSwipe = true;
       }
     }
