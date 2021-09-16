@@ -23,3 +23,7 @@ sliderCarousel();
 // Слайдер основной
 import sliderTop from './modules/sliderTop';
 sliderTop();
+
+//отправка формы
+import sendForm from './modules/sendForm';
+sendForm();
