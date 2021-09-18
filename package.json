@@ -1,0 +1,30 @@
+{
+  "name": "Glo-Acodemy_Graduation_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.config.js",
+    "dev": "webpack serve --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrCherednichenko/Glo-Acodemy_Graduation_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrCherednichenko/Glo-Acodemy_Graduation_project/issues"
+  },
+  "homepage": "https://github.com/AlexandrCherednichenko/Glo-Acodemy_Graduation_project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "webpack": "^5.35",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
