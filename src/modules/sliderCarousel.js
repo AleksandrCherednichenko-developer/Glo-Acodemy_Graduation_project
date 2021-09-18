@@ -109,7 +109,6 @@ const sliderCarousel = () => {
 
       // запрет протаскивания дальше одного слайда
       if (posInit > posX1 && transform < nextTrf || posInit < posX1 && transform > prevTrf) {
-        console.log(transform, prevTrf);
         reachEdge();
         return;
       }
